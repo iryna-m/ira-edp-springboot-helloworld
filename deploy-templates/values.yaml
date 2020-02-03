@@ -1,4 +1,4 @@
-name: edp-springboot-helloworld
+name: ira-edp-springboot-helloworld
 namespace: ""
 cdPipelineName: ""
 cdPipelineStageName: ""
@@ -15,9 +15,9 @@ database:
 
 ingress:
   required: true
-  site: test
+  site: ira
   path: /
 
 image:
-  name: edp-springboot-helloworld
+  name: ira-edp-springboot-helloworld
   version: latest
