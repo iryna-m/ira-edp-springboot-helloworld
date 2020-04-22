@@ -1,4 +1,4 @@
-name: ira-edp-springboot-helloworld-temp
+name: ira-edp-springboot-helloworld
 namespace: ""
 cdPipelineName: ""
 cdPipelineStageName: ""
@@ -12,5 +12,5 @@ ingress:
   required: false
 
 image:
-  name: ira-edp-springboot-helloworld-temp
+  name: ira-edp-springboot-helloworld
   version: latest
